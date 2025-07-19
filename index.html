@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mudika Siri - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4e54c8;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #4e54c8;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .skills, .interests {
+      display: inline-block;
+      width: 48%;
+      vertical-align: top;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #4e54c8;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #4e54c8;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #e91e63;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media screen and (max-width: 600px) {
+      .skills, .interests {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mudika Siri</h1>
+    <p>Web Development Intern @ Vault of Codes | BTech Data Science Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Mudika Siri, a passionate BTech CES (Data Science) student and current Web Development Intern at Vault of Codes. I enjoy creating modern, responsive websites and applying data science to solve real-world problems. My work blends creativity with logic, and I'm on a mission to build tech that matters.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Interests</h2>
+    <div class="skills">
+      <h3>Skills:</h3>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>Data Science (Python, Machine Learning)</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+    <div class="interests">
+      <h3>Interests:</h3>
+      <ul>
+        <li>Deep Learning</li>
+        <li>HealthTech Innovations</li>
+        <li>Front-end Development</li>
+        <li>Open Source Contribution</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Breast Cancer Detection using CNN & RNN</h3>
+      <p>
+        Breast cancer is one of the most common cancers among women. I developed a hybrid Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) model to detect stages of breast cancer from mammogram images. This model combines spatial (CNN) and temporal (RNN) features to classify stages like <strong>Normal</strong>, <strong>Beginning</strong>, and <strong>Malignant</strong>. It outperformed traditional models in both accuracy and speed, showing promise in real clinical settings.
+      </p>
+      <p><strong>Status:</strong> Currently in development | <em>No live link yet</em></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>This real-world responsive portfolio site is built using HTML, CSS, and JavaScript to showcase my skills, projects, and contact info for internships and clients.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sirimudika@gmail.com">sirimudika@gmail.com</a></p>
+    <p>
+      <a href="https://github.com/siriii29" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/siri-mudika-5aa3322b7" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mudika Siri. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
